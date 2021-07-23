@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GymProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PAYMENT1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Registration">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="FNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AGE" Type="Int32" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GENDER" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BIRTHDAY" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityContainer Name="GymProjectEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Registrations" EntityType="Self.Registration" />
+  </EntityContainer>
+</Schema>

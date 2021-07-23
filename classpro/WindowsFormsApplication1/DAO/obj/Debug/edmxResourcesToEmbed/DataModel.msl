@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GymProjectModelStoreContainer" CdmEntityContainer="GymProjectEntities">
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="GymProjectModel.Payment">
+        <MappingFragment StoreEntitySet="Payment">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FNAME" ColumnName="FNAME" />
+          <ScalarProperty Name="LNAME" ColumnName="LNAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PAYMENT1" ColumnName="PAYMENT" />
+          <ScalarProperty Name="DATE" ColumnName="DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Registrations">
+      <EntityTypeMapping TypeName="GymProjectModel.Registration">
+        <MappingFragment StoreEntitySet="Registration">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FNAME" ColumnName="FNAME" />
+          <ScalarProperty Name="LNAME" ColumnName="LNAME" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="BIRTHDAY" ColumnName="BIRTHDAY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
