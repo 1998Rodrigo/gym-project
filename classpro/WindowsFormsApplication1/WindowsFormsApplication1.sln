@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{7A0FE95C-EDA4-4364-8BD4-B6ACC5D647FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{EAD6A533-824F-4A5A-A1E7-1237F76F434F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{2DBEFF25-C46D-469E-8490-8A0D4DF24889}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7A0FE95C-EDA4-4364-8BD4-B6ACC5D647FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A0FE95C-EDA4-4364-8BD4-B6ACC5D647FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A0FE95C-EDA4-4364-8BD4-B6ACC5D647FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD6A533-824F-4A5A-A1E7-1237F76F434F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD6A533-824F-4A5A-A1E7-1237F76F434F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD6A533-824F-4A5A-A1E7-1237F76F434F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD6A533-824F-4A5A-A1E7-1237F76F434F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBEFF25-C46D-469E-8490-8A0D4DF24889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBEFF25-C46D-469E-8490-8A0D4DF24889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBEFF25-C46D-469E-8490-8A0D4DF24889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBEFF25-C46D-469E-8490-8A0D4DF24889}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
